@@ -1,0 +1,184 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right,#FFF7EA 30%,#FFFCF5 50%);
+    padding: 10px 20px;
+}
+
+nav .logo img {
+    max-height: 50px;
+    max-width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: wheat;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+nav .login a {
+    color: wheat;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+nav .login a:hover {
+    background-color: #555;
+}
+
+.container {
+    background-image: url('../Fee-eval-1-G24-Real-Estate-/images/bg/bg-rent.510cd476.jpg');
+    background-size: cover;
+    background-position: center;
+    display: table;
+    width: 100%;
+    height: calc(100vh - 50px); /* Adjust based on navbar height */
+}
+
+.content {
+    display: table-cell;
+    width: 60%;
+    color: black;
+    padding-top: 90px;
+    font-size: 30px;
+    padding-left: 10px;
+    
+   
+}
+
+.side-image {
+    display: table-cell;
+    vertical-align: middle;
+    width: 40%;
+    text-align: right;
+    padding: 50px;
+}
+
+.side-image img {
+    max-width: 550px;
+    height: 100%;
+}
+
+.branding{
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.brand_logo{
+    padding-left: 30px;
+}
+
+.featured_prop{
+    text-align: center;
+    font-size: 25px;
+}
+
+.property_options ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+  
+.property_options ul li {
+    width: auto;
+    height: auto;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.card-text {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.card-button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 0.9em;
+  color: #fff;
+  background-color: #007bff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+}
+
+.featured_prop_cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
+    row-gap: 50px;
+    column-gap: 5px; 
+    padding: 10px;
+}
+  
