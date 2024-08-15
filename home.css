@@ -317,6 +317,116 @@ nav .login a:hover {
     
 }
 
+/* container4 */
+
+.container4{
+    margin-top: 120px;
+}
+
+.content4{
+    text-align: center;
+}
+
+.content4 h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.content4 p{
+    color: gray;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    padding: 20px;
+}
+
+.image_link{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.centered-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%; 
+    display: block;
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    height: 100%;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2); 
+    transition: bottom 0.5s ease; 
+}
+
+.image-wrapper:hover .image-overlay {
+    bottom: 0; 
+}
+
+.image-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.main_card-container_slider4 {
+    width: 100%; /* Visible area width */
+    overflow: hidden; /* Hide overflow to show one card at a time */
+    position: relative; /* To ensure proper positioning of track */
+    /* display: flex;
+    justify-content: center; */
+}
+
+.card-container_slider4 {
+    display: flex;
+    width: 600%; /* Width set for 6 cards */
+    animation: slide 50s linear infinite;
+    gap: 30px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0); /* Start with the first card visible */
+    }
+    100% {
+        transform: translateX(-100%); /* Move the track left by half of its width (half of the duplicated track width) */
+    }
+}
+
+.card_slider {
+    flex: 0 0 16.66%; /* Each card takes up 1/6th of the container width */
+    height: 200px; /* Set a height for the cards */
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 10px; /* Optional: space between cards */
+}
+
+
 
 
 
