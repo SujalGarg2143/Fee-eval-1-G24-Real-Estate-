@@ -215,31 +215,108 @@ nav .login a:hover {
 }
 
 /* container3 */
-.container3 {
-    position: relative;
-    text-align: center;
-    padding-top: 80px;
-}
-
-.background-image3 {
+.background-container3 {
     background-image: url('../Fee-eval-1-G24-Real-Estate-/images/bg/bg-icon.673be813.jpg');
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; 
-    height: 100vh;
-    position: relative;
-    padding: 100px 0;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.section-heading3 {
+    font-size: 50px;
+    margin-bottom: 40px; 
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 
-.heading3 {
+.cards-wrapper3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    max-width: 1200px; 
+    width: 100%;
+    padding-top: 100px;
+    height: 500px;
+}
+
+.card3 {
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+
+.card-header3 {
     position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 48px;
+    top: 10px;
+    /* left: 10px; */
+}
+
+.logo3 {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    transition: transform 0.5s ease;
+}
+
+/* spin animation */
+
+@keyframes spin-axis {
+    from {
+        transform: rotateY(0deg); 
+    }
+    to {
+        transform: rotateY(360deg); 
+    }
+}
+
+.card3:hover .logo3 {
+    animation: spin-axis 2s linear infinite; 
+}
+
+.card-header3 p{
+    font-size: 20px;
     font-weight: bold;
 }
+.card-content3 {
+    margin-top: 60px; 
+    padding: 20px 0;
+}
+
+
+.card-text3 {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}
+
+.card-footer3 {
+    position: absolute;
+}
+
+.card-button3 {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
 
 
 
