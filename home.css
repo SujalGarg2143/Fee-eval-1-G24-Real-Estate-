@@ -54,6 +54,8 @@ nav .login a:hover {
     background-color: #555;
 }
 
+/* container1 */
+
 .container {
     background-image: url('../Fee-eval-1-G24-Real-Estate-/images/bg/bg-rent.510cd476.jpg');
     background-size: cover;
@@ -86,6 +88,8 @@ nav .login a:hover {
     max-width: 550px;
     height: 100%;
 }
+
+/* container2 */
 
 .branding{
     padding-left: 50px;
@@ -122,7 +126,7 @@ nav .login a:hover {
 }
 
 .card {
-  width: 300px;
+  width: 330px;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
@@ -143,7 +147,8 @@ nav .login a:hover {
 }
 
 .card-content {
-  padding: 16px;
+  padding: 10px;
+
 }
 
 .card-title {
@@ -153,10 +158,30 @@ nav .login a:hover {
 }
 
 .card-text {
-  font-size: 0.9em;
-  color: #666;
-  margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
 }
+
+.card-address {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.card-price {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: orangered;
+}
+
+.card-details {
+    display: block;
+    font-size: 12.5px;
+    color: #555;
+}
+
 
 .card-button {
   display: inline-block;
@@ -168,6 +193,7 @@ nav .login a:hover {
   text-decoration: none;
   border-radius: 4px;
   transition: background-color 0.3s;
+  margin-left: 37%;
 }
 
 .card-button:hover {
@@ -176,9 +202,44 @@ nav .login a:hover {
 
 .featured_prop_cards{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 3fr));
     row-gap: 50px;
-    column-gap: 5px; 
-    padding: 10px;
+    column-gap: 1px; 
+    padding: 15px;
+    margin-left: 55px;
 }
-  
+
+.fa-map{
+    font-size: 15px;
+    color: gray;
+}
+
+/* container3 */
+.container3 {
+    position: relative;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.background-image3 {
+    background-image: url('../Fee-eval-1-G24-Real-Estate-/images/bg/bg-icon.673be813.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 100vh;
+    position: relative;
+    padding: 100px 0;
+}
+
+
+.heading3 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+
