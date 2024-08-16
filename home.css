@@ -387,44 +387,112 @@ nav .login a:hover {
     font-weight: bold;
     z-index: 1;
 }
+/* conatiner5 */
 
-.main_card-container_slider4 {
-    width: 100%; /* Visible area width */
-    overflow: hidden; /* Hide overflow to show one card at a time */
-    position: relative; /* To ensure proper positioning of track */
-    /* display: flex;
-    justify-content: center; */
+.container5{
+    margin-top: 150px;
 }
 
-.card-container_slider4 {
+.heading5{
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+}
+.slider5-main {
+    width: 600px; 
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+  }
+  
+.card-container_slider5 {
     display: flex;
-    width: 600%; /* Width set for 6 cards */
-    animation: slide 50s linear infinite;
-    gap: 30px;
+    width: calc(600px * 6); 
+    animation: slide 50s linear infinite; 
+    gap: 20px;
 }
-
+  
 @keyframes slide {
-    0% {
-        transform: translateX(0); /* Start with the first card visible */
-    }
-    100% {
-        transform: translateX(-100%); /* Move the track left by half of its width (half of the duplicated track width) */
-    }
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-1900px); } 
 }
 
-.card_slider {
-    flex: 0 0 16.66%; /* Each card takes up 1/6th of the container width */
-    height: 200px; /* Set a height for the cards */
-    background-color: #f0f0f0;
+/* conatiner6 */
+
+.container6 {
+    position: relative;
+    height: 100vh;
+    background: url('../Fee-eval-1-G24-Real-Estate-/images/bg/bg-testimonial2.b3e518f3.png') no-repeat center center/cover;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content6 {
+    text-align: center;
+}
+
+.heading6 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.text6 {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.carousel6 {
+    overflow: hidden;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 30px;
+}
+
+.carousel-wrapper6 {
+    display: flex;
+    width: calc(400px * 4);
+    animation: swipe-stop6 8s ease-in-out infinite; 
+}
+
+.carousel-item6 {
+    width: 400px; 
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-right: 10px; /* Optional: space between cards */
+    padding: 20px;
+    box-sizing: border-box;
 }
+
+.circle-image6 {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    background-size: contain;
+
+}
+
+.section-text6 {
+    font-size: 10px;
+}
+
+@keyframes swipe-stop6 {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-400px); } 
+    30% { transform: translateX(-400px); } 
+    50% { transform: translateX(-800px); } 
+    60% { transform: translateX(-800px); } 
+    80% { transform: translateX(-1200px); }
+    90% { transform: translateX(-1200px); }
+    100% { transform: translateX(0); } 
+}
+
+  
 
 
 
