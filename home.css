@@ -1,4 +1,4 @@
-body, html {
+*{
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -57,12 +57,12 @@ nav .login a:hover {
 /* container1 */
 
 .container {
-    background-image: url('../Fee-eval-1-G24-Real-Estate-/images/bg/bg-rent.510cd476.jpg');
+    background-image: url('../Fee-eval-1-G24-Real-Estate-/images/home/bg/bg-rent.510cd476.jpg');
     background-size: cover;
     background-position: center;
     display: table;
     width: 100%;
-    height: calc(100vh - 50px); /* Adjust based on navbar height */
+    height: calc(100vh - 50px);
 }
 
 .content {
@@ -216,7 +216,7 @@ nav .login a:hover {
 
 /* container3 */
 .background-container3 {
-    background-image: url('../Fee-eval-1-G24-Real-Estate-/images/bg/bg-icon.673be813.jpg');
+    background-image: url('../Fee-eval-1-G24-Real-Estate-/images/home/bg/bg-icon.673be813.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -422,7 +422,7 @@ nav .login a:hover {
 .container6 {
     position: relative;
     height: 100vh;
-    background: url('../Fee-eval-1-G24-Real-Estate-/images/bg/bg-testimonial2.b3e518f3.png') no-repeat center center/cover;
+    background: url('../Fee-eval-1-G24-Real-Estate-/images/home/bg/bg-testimonial2.b3e518f3.png') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
