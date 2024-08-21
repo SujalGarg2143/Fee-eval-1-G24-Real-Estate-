@@ -34,7 +34,7 @@
     border: 1px solid gray;
 }
 
-.property-details {
+.head-property-details {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -142,13 +142,11 @@
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.overview {
     display: flex;
     flex-direction: column;
-    gap: 20px; 
+    gap: 20px;
 }
+
 
 .overview-row {
     display: flex;
@@ -181,7 +179,78 @@
 }
 
 .property-description p {
-    margin: 0;
+    margin-top: 10px;
     line-height: 1.6;
     color: #333;
+    text-align: justify;
+}
+
+.property-details {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.details-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.left-column {
+    width: 48%;
+}
+
+.right-column {
+    width: 20%;
+    transform: translateX(-15%);
+    text-align: left;
+}
+
+.property-details p {
+    margin-top: 10px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.property-details .left-column p {
+    text-align: left;
+}
+
+.property-details .right-column p {
+    text-align: left;
+}
+
+.property-features {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.features-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.feature-item {
+    text-align: center; /* Center-aligns the checkbox and label */
+}
+
+.feature-item input[type="checkbox"] {
+    display: block;
+    margin: 0 auto 5px; /* Centers the checkbox and adds space below it */
+}
+
+.feature-item label {
+    display: block;
+    text-align: center; /* Ensures label is centered under the checkbox */
+}
+
+.property-features .heading {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
