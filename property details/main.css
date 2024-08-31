@@ -574,92 +574,93 @@ textarea {
 
 /* media queries */
 
-@media screen and (max-width: 768px){
-
+@media screen and (max-width: 768px) {
+    
     * {
+        box-sizing: border-box;
         margin: 0;
         padding: 0;
         scroll-behavior: smooth;
     }
 
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Navbar */
     .navbar {
         padding: 20px;
     }
 
-    .line{
-        width: 100%;
-        margin-left: 50px;
-    }
-
+    /* Head Property Details */
     .head-property-details {
-        overflow: hidden;
         display: flex;
-        flex-wrap: wrap;
-        font-size: 20px;
         flex-direction: column;
+        width: 100%;
+        padding: 20px;
     }
 
     .left-section h2 {
-        font-size: 20px;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 40px;
     }
 
     .right-section {
         text-align: left;
+        margin-top: 10px;
     }
 
+    /* Image Grid */
     .image-grid {
         grid-template-columns: 1fr;
         width: 100%;
+        padding: 10px;
     }
 
+    .large-image img,
+    .top-image img,
+    .bottom-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Container Adjustments */
     .container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
-        margin-left: 20px;
-
     }
 
-    .left-container {
+    .left-container,
+    .right-container,
+    .overview,
+    .property-description,
+    .property-details,
+    .property-features,
+    .map-location,
+    .floor-plan,
+    .house-review {
         width: 100%;
+        padding: 10px;
         margin: 0;
-    }
-
-    .overview {
-        width: 100%;
     }
 
     .overview-row {
         gap: 15px;
     }
 
-    .property-description {
-        width: 100%;
-    }
-
-    .property-details {
-        width: 100%;
-    }
-
-    .details-container p {
+    .details-container {
         display: flex;
         flex-wrap: wrap;
         font-size: 10px;
-    }
-
-    .property-features {
         width: 100%;
-
     }
 
     .features-container {
         grid-template-columns: repeat(2, 1fr);
-
-    }
-
-    .map-location {
-        width: 100%;
     }
 
     .location-content {
@@ -669,47 +670,35 @@ textarea {
     }
 
     .map-image iframe {
-        width: 250px;
-        height: 250px;
-    }
-
-    .floor-plan {
         width: 100%;
+        height: auto;
     }
 
-    .house-review {
-        width: 100%;
-    }
-
-    .right-container {
-        width: 100%;
-        margin-top: 20px;
-        margin-left: 85px;
-
-    }
-
-    .tour-form {
+    /* Tour Form */
+    .tour-form,
+    .another-properties {
         width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
 
-    .another-properties{
-        width: 80%;
+    /* Footer */
+    .footer {
+        display: block;
+        width: 100%;
+        padding: 20px;
     }
-    
-    footer{
-        display: none;
+
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-section {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 }
-/* 
-@media screen and {
-
-    .map-image iframe {
-        width: 500px;
-        height: 500px;
-    }
-
-    footer{
-        display: none;
-    }
-    
-} */
