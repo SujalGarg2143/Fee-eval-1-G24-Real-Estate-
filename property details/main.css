@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
 }
 
@@ -44,8 +45,8 @@
 
 .sale {
     padding: 5px;
-    background-color: blue;
-    border: 1px solid blue;
+    background-color: #6E55FF;
+    border: 1px solid #6E55FF;
     border-radius: 20%;
 }
 
@@ -570,3 +571,145 @@ textarea {
 .footer-social a:hover {
     color: #007bff;
 }
+
+/* media queries */
+
+@media screen and (max-width: 768px){
+
+    * {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+
+    .navbar {
+        padding: 20px;
+    }
+
+    .line{
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .head-property-details {
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px;
+        flex-direction: column;
+    }
+
+    .left-section h2 {
+        font-size: 20px;
+    }
+
+    .right-section {
+        text-align: left;
+    }
+
+    .image-grid {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 20px;
+
+    }
+
+    .left-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .overview {
+        width: 100%;
+    }
+
+    .overview-row {
+        gap: 15px;
+    }
+
+    .property-description {
+        width: 100%;
+    }
+
+    .property-details {
+        width: 100%;
+    }
+
+    .details-container p {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 10px;
+    }
+
+    .property-features {
+        width: 100%;
+
+    }
+
+    .features-container {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .map-location {
+        width: 100%;
+    }
+
+    .location-content {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 10px;
+    }
+
+    .map-image iframe {
+        width: 250px;
+        height: 250px;
+    }
+
+    .floor-plan {
+        width: 100%;
+    }
+
+    .house-review {
+        width: 100%;
+    }
+
+    .right-container {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 85px;
+
+    }
+
+    .tour-form {
+        width: 80%;
+    }
+
+    .another-properties{
+        width: 80%;
+    }
+    
+    footer{
+        display: none;
+    }
+}
+/* 
+@media screen and {
+
+    .map-image iframe {
+        width: 500px;
+        height: 500px;
+    }
+
+    footer{
+        display: none;
+    }
+    
+} */
