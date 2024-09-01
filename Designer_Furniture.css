@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.card.custom-card {
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.card.custom-card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 18px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #555;
+}
+
+.card-rating {
+    margin-top: 10px;
+}
+
+.card-rating .badge {
+    font-size: 12px;
+}
+
+
+
+
+
+
+.hero-section {
+    position: relative;
+    background-image: url('designer\ heading.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+
+}
+
+.overlay {
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    color: #ffffff;
+}
+
+.overlay h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.overlay p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 100px;
+    }
+    
+    .footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    }
+    
+    .footer-section {
+    display: flex;
+    align-items: flex-start;
+    background-color: #444;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    }
+    
+    .footer-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    }
+    
+    .footer-content {
+    text-align: left;
+    flex-grow: 1;
+    }
+    
+    .footer-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    }
+    
+    .footer-content p {
+    margin-bottom: 10px;
+    color: #ccc;
+    }
+    
+    .contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    color: #007bff;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 10px; /* Space between the paragraph and button */
+    }
+    
+    .contact-button:hover {
+    background-color: #007bff;
+    color: #fff;
+    }
+    
+    .footer-bottom {
+    border-top: 1px solid #555;
+    padding-top: 20px;
+    }
+    
+    .footer-contact p {
+    margin: 5px 0;
+    }
+    
+    .footer-social a {
+    color: #bbb;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+    }
+    
+    .footer-social a:hover {
+    color: #007bff;
+    }
+    
