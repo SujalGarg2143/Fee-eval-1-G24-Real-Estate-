@@ -587,12 +587,12 @@ textarea {
         overflow-x: hidden;
     }
 
-    /* Navbar */
+    /* navbar */
     .navbar {
         padding: 20px;
     }
 
-    /* Head Property Details */
+    /* head property details */
     .head-property-details {
         display: flex;
         flex-direction: column;
@@ -612,7 +612,7 @@ textarea {
         margin-top: 10px;
     }
 
-    /* Image Grid */
+    /* main images */
     .image-grid {
         grid-template-columns: 1fr;
         width: 100%;
@@ -626,7 +626,7 @@ textarea {
         height: auto;
     }
 
-    /* Container Adjustments */
+    /* main container */
     .container {
         flex-direction: column;
         justify-content: center;
@@ -674,7 +674,7 @@ textarea {
         height: auto;
     }
 
-    /* Tour Form */
+    /* content of right container */
     .tour-form,
     .another-properties {
         width: 80%;
@@ -682,7 +682,7 @@ textarea {
         margin-bottom: 20px;
     }
 
-    /* Footer */
+    /* footer */
     .footer {
         display: block;
         width: 100%;
