@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 
@@ -18,13 +23,13 @@ nav .logo img {
     max-width: 100px;
 }
 
-.burger-menu {
+.menu {
     display: none;
     flex-direction: column;
     cursor: pointer;
 }
 
-.burger-menu .line {
+.menu .line {
     width: 25px;
     height: 3px;
     background-color: wheat;
@@ -38,7 +43,6 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
-    flex-grow: 1;
 }
 
 nav ul li {
@@ -85,7 +89,7 @@ nav .login a {
     background-color: #555;
 }
 
-nav ul li:hover>.dropdown {
+nav ul li:hover .dropdown {
     display: block;
 }
 
@@ -105,7 +109,7 @@ nav .login a:hover {
     background-position: center;
     display: table;
     width: 100%;
-    height: calc(100vh - 50px);
+    height: 100vh;
 }
 
 .content {
@@ -478,7 +482,7 @@ nav .login a:hover {
 
 .carousel-wrapper6 {
     display: flex;
-    width: calc(400px * 4);
+    width: 1600px;
     animation: swipe-stop6 8s ease-in-out infinite;
 }
 
@@ -573,7 +577,6 @@ nav .login a:hover {
 }
 
 .agent-img7 {
-    /* border-radius: 50%; */
     width: 200px;
     height: 200px;
     margin-bottom: 15px;
@@ -692,8 +695,6 @@ nav .login a:hover {
     }
 
     nav .logo {
-        flex-basis: 100%;
-        text-align: center;
         margin-bottom: 10px;
     }
 
@@ -708,29 +709,13 @@ nav .login a:hover {
         margin: 10px 0;
     }
 
-    nav .login {
-        flex-basis: 100%;
-        text-align: center;
-        margin-top: 10px;
-    }
-
-    .burger-menu {
+    .menu {
         display: flex;
     }
 
-    .burger-menu.active+ul {
-        display: flex;
-    }
 }
 
-/* Global adjustments */
-* {
-    box-sizing: border-box;
-}
-
-body {
-    overflow-x: hidden;
-}
+/* modification done for responsivness */
 
 .container,
 .container2,
