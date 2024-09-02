@@ -15,8 +15,8 @@ background-color: rgb(117, 194, 246);
 }
 
 .logo {
-width: 100px;
-height: 50px;
+width: 120px;
+height: 65px;
 margin-right: 500px;
 }
 
@@ -255,76 +255,87 @@ button:hover {
 
 
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 0;
-}
 
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
+.footer {
+    background-color: #333;
+    color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 100px;
+    }
+    
+    .footer-top {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-
-.logof img {
-    max-width: 150px;
-}
-
-.qr-code img {
-    max-width: 100px;
-}
-
-.social-links {
+    margin-bottom: 20px;
+    }
+    
+    .footer-section {
     display: flex;
-    justify-content: center;
-    margin-right: 5px;
-}
-
-.social-links a {
-    color: #fff;
-    font-size: 24px;
-    margin: 0 10px;
-    transition: color 0.3s;
-}
-
-.social-links a:hover {
-    color: #ccc;
-}
-
-.copyright {
-    text-align: center;
-    margin-top: 35px;
-    font-size: 14px;
-}
-
-@media (max-width: 768px) {
+    align-items: flex-start;
+    background-color: #444;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    }
+    
+    .footer-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    }
+    
     .footer-content {
-        flex-direction: column;
-        text-align: center;
+    text-align: left;
+    flex-grow: 1;
     }
-
-    .logof, .qr-code {
-        margin-bottom: 20px;
-        
+    
+    .footer-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
     }
-}
-.p-footer {
-    font-size: larger;
-}
-.qr {
-    margin-left: 105px;
-    cursor: pointer;
-}
-.logof {
-    margin-left: 20px;
-    cursor: pointer;
-}
-.s-media {
-    text-align: center;
-}
+    
+    .footer-content p {
+    margin-bottom: 10px;
+    color: #ccc;
+    }
+    
+    .contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    color: #007bff;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 10px; 
+    }
+    
+    .contact-button:hover {
+    background-color: #007bff;
+    color: #fff;
+    }
+    
+    .footer-bottom {
+    border-top: 1px solid #555;
+    padding-top: 20px;
+    }
+    
+    .footer-contact p {
+    margin: 5px 0;
+    }
+    
+    .footer-social a {
+    color: #bbb;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+    }
+    
+    .footer-social a:hover {
+    color: #007bff;
+    }
 
 
 
@@ -364,6 +375,15 @@ footer {
     }
 }
 @media (min-width: 1200px) {
-    /* Styles for large screens (desktops) */
-    /* No changes needed for large screens */
+    
+}
+
+@media (max-width: 1464px) {
+    .header-info {
+        display: none; /* Hide all header info on small screens */
+    }
+
+    .logo {
+        margin: 0 auto;
+    }
 }
