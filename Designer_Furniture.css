@@ -94,46 +94,46 @@ footer {
     padding: 40px 20px;
     text-align: center;
     margin-top: 100px;
-    }
-    
-    .footer-top {
+}
+
+.footer-top {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    }
-    
-    .footer-section {
+}
+
+.footer-section {
     display: flex;
     align-items: flex-start;
     background-color: #444;
     border-radius: 10px;
     padding: 20px;
     width: 45%;
-    }
-    
-    .footer-img {
+}
+
+.footer-img {
     width: 100px;
     height: 100px;
     margin-right: 20px;
-    }
-    
-    .footer-content {
+}
+
+.footer-content {
     text-align: left;
     flex-grow: 1;
-    }
-    
-    .footer-content h3 {
+}
+
+.footer-content h3 {
     font-size: 20px;
     margin-bottom: 10px;
     color: #fff;
-    }
-    
-    .footer-content p {
+}
+
+.footer-content p {
     margin-bottom: 10px;
     color: #ccc;
-    }
-    
-    .contact-button {
+}
+
+.contact-button {
     display: inline-block;
     padding: 10px 20px;
     border: 2px solid #007bff;
@@ -141,31 +141,91 @@ footer {
     color: #007bff;
     text-decoration: none;
     transition: background-color 0.3s ease, color 0.3s ease;
-    margin-top: 10px; /* Space between the paragraph and button */
-    }
-    
-    .contact-button:hover {
+    margin-top: 10px;
+    /* Space between the paragraph and button */
+}
+
+.contact-button:hover {
     background-color: #007bff;
     color: #fff;
-    }
-    
-    .footer-bottom {
+}
+
+.footer-bottom {
     border-top: 1px solid #555;
     padding-top: 20px;
-    }
-    
-    .footer-contact p {
+}
+
+.footer-contact p {
     margin: 5px 0;
-    }
-    
-    .footer-social a {
+}
+
+.footer-social a {
     color: #bbb;
     text-decoration: none;
     margin: 0 10px;
     transition: color 0.3s ease;
-    }
-    
-    .footer-social a:hover {
+}
+
+.footer-social a:hover {
     color: #007bff;
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
     }
-    
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .hero-section {
+        height: 200px;
+        width: 100%;
+    }
+
+    .overlay h1 {
+        font-size: 1.5rem;
+    }
+
+    .overlay p {
+        font-size: 0.875rem;
+    }
+
+    .card-img-top {
+        height: 120px;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 0.75rem;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-img {
+        margin-bottom: 20px;
+    }
+
+    .footer-content {
+        text-align: center;
+        width: 100%;
+    }
+}
