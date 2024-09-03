@@ -138,16 +138,9 @@ nav .login a:hover {
 
 /* container2 */
 
-.branding {
-    padding-left: 50px;
-    padding-top: 80px;
-}
-
-.brand_logo {
-    padding-left: 30px;
-}
 
 .featured_prop {
+    margin-top: 100px;
     text-align: center;
     font-size: 25px;
 }
