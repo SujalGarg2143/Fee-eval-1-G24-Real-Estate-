@@ -347,6 +347,53 @@ button:hover {
     color: #007bff;
     }
 
+    /* Animations */
+    @keyframes wiggle {
+      0%, 100% {
+          transform: rotate(0deg);
+      }
+      25% {
+          transform: rotate(5deg);
+      }
+      75% {
+          transform: rotate(-5deg);
+      }
+  }
+  
+  .card-img1 {
+      animation: wiggle 0.5s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+ input:hover {
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes slide-in {
+  0% {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+.container {
+  animation: slide-in 0.5s ease-out;
+}
 
 
 
