@@ -667,6 +667,7 @@ p {
 
   .pagination {
     justify-content: center;
+    margin-top: 45px;
     /* Center pagination for tablets */
   }
   .search-icon {
