@@ -587,12 +587,10 @@ textarea {
         overflow-x: hidden;
     }
 
-    /* navbar */
     .navbar {
         padding: 20px;
     }
 
-    /* head property details */
     .head-property-details {
         display: flex;
         flex-direction: column;
@@ -612,7 +610,6 @@ textarea {
         margin-top: 10px;
     }
 
-    /* main images */
     .image-grid {
         grid-template-columns: 1fr;
         width: 100%;
@@ -626,7 +623,6 @@ textarea {
         height: auto;
     }
 
-    /* main container */
     .container {
         flex-direction: column;
         justify-content: center;
@@ -674,7 +670,6 @@ textarea {
         height: auto;
     }
 
-    /* content of right container */
     .tour-form,
     .another-properties {
         width: 80%;
@@ -682,7 +677,6 @@ textarea {
         margin-bottom: 20px;
     }
 
-    /* footer */
     .footer {
         display: block;
         width: 100%;
