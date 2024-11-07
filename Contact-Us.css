@@ -499,7 +499,7 @@ button:hover {
     }
     
 }
-@media (min-width: 1200px) and (max-width: 1464px) {
+@media (min-width: 1200px) and (max-width: 1458px) {
   * {
     box-sizing: border-box;
     margin: 0;
@@ -507,9 +507,8 @@ button:hover {
     scroll-behavior: smooth;
   }
 
-  body {
-    overflow-x: hidden;
-  }
+    
+  
   header {
     width: 100%;
   }
@@ -531,6 +530,23 @@ button:hover {
   }
   .logo {
     margin-left: 0;
+  }
+  .over{
+    margin-left: 55px;
+    width: 390px;
+    
+  }
+  .over1{
+    margin-left: 5px;
+    left: 450px;
+    width: 390px;
+
+  }
+
+  .over2{
+    margin-left: 5px;
+    left: 850px;
+    width: 390px;
   }
     
 }
