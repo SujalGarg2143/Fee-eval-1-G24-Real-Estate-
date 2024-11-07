@@ -1,0 +1,90 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #FFF7EA 30%, #FFFCF5 50%);
+    padding: 10px 20px;
+}
+
+nav .logo img {
+    max-height: 50px;
+    max-width: 100px;
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu .line {
+    width: 25px;
+    height: 3px;
+    background-color: wheat;
+    margin: 4px 0;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: wheat;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 5px 10px;
+    border-radius: 3px;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown li {
+    width: 100%;
+}
+
+.dropdown li a {
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+nav .login a {
+    color: wheat;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown li a:hover {
+    background-color: #555;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+nav .login a:hover {
+    background-color: #555;
+}
