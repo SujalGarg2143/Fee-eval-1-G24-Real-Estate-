@@ -1,5 +1,7 @@
 import React from 'react';
 import './Home.css';
+import { Link } from 'react-router-dom';
+
 
 const Home = () => {
     return (
@@ -39,7 +41,7 @@ const Home = () => {
                                 <span className="card-price">$950,000</span><br />
                                 <span className="card-details"><i className="fa-solid fa-bed"></i> Bedrooms: 4 | <i className="fa-solid fa-bath"></i> Bathrooms: 3 | <i className="fa-solid fa-tape"></i> Area: 2,800 sq.ft.</span>
                             </p>
-                            <a href="/property-details/willowcrest_manor" className="card-button">View</a>
+                            <Link to="/birchwood" className="card-button">View</Link>
                         </div>
                     </div>
 
@@ -52,7 +54,7 @@ const Home = () => {
                                 <span className="card-price">$1,200,000</span><br />
                                 <span className="card-details"><i className="fa-solid fa-bed"></i> Bedrooms: 5 | <i className="fa-solid fa-bath"></i> Bathrooms: 4 | <i className="fa-solid fa-tape"></i> Area: 3,500 sq.ft.</span>
                             </p>
-                            <a href="/property-details/rosewood-estate" target="_blank" className="card-button">View</a>
+                            <Link to="/birchwood" className="card-button">View</Link>
                         </div>
                     </div>
 
@@ -65,7 +67,7 @@ const Home = () => {
                                 <span className="card-price">$850,000</span><br />
                                 <span className="card-details"><i className="fa-solid fa-bed"></i> Bedrooms: 4 | <i className="fa-solid fa-bath"></i> Bathrooms: 3 | <i className="fa-solid fa-tape"></i> Area: 2,900 sq.ft.</span>
                             </p>
-                            <a href="/property-details/maple-grove-villa" target="_blank" className="card-button">View</a>
+                            <Link to="/birchwood" className="card-button">View</Link>
                         </div>
                     </div>
 
@@ -78,7 +80,7 @@ const Home = () => {
                                 <span className="card-price">$2,000,000</span><br />
                                 <span className="card-details"><i className="fa-solid fa-bed"></i> Bedrooms: 6 | <i className="fa-solid fa-bath"></i> Bathrooms: 5 | <i className="fa-solid fa-tape"></i> Area: 4,200 sq.ft.</span>
                             </p>
-                            <a href="/property-details/birchwood-mansion" target="_blank" className="card-button">View</a>
+                            <Link to="/birchwood" className="card-button">View</Link>
                         </div>
                     </div>
 
@@ -91,7 +93,7 @@ const Home = () => {
                                 <span className="card-price">$980,000</span><br />
                                 <span className="card-details"><i className="fa-solid fa-bed"></i> Bedrooms: 5 | <i className="fa-solid fa-bath"></i> Bathrooms: 3 | <i className="fa-solid fa-tape"></i> Area: 3,000 sq.ft.</span>
                             </p>
-                            <a href="/property-details/cedar-ridge-house" target="_blank" className="card-button">View</a>
+                            <Link to="/birchwood" className="card-button">View</Link>
                         </div>
                     </div>
 
@@ -104,7 +106,7 @@ const Home = () => {
                                 <span className="card-price">$1,700,000</span><br />
                                 <span className="card-details"><i className="fa-solid fa-bed"></i> Bedrooms: 5 | <i className="fa-solid fa-bath"></i> Bathrooms: 5 | <i className="fa-solid fa-tape"></i> Area: 4,000 sq.ft.</span>
                             </p>
-                            <a href="/property-details/oakview-manor" target="_blank" className="card-button">View</a>
+                            <Link to="/birchwood" className="card-button">View</Link>
                         </div>
                     </div>
 
