@@ -128,7 +128,7 @@ const ContactUs = () => {
     <div className="row">
       <div className="col">
         <img
-          src="../Fee-eval-1-G24-Real-Estate-/images/ContactUs/ppppp.png"
+          src="src/assets/images/ContactUs/ppppp.png"
           alt="Contact Image"
         />
       </div>

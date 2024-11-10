@@ -24,7 +24,7 @@ const Blog = () => {
       <div className="left-img">
         <img
           className="left-image"
-          src="../Fee-eval-1-G24-Real-Estate-/images/blogpage/img3.jpg"
+          src="src/assets/images/Blog/img3.jpg"
           alt="Chip and Joanna Gaines' Latest Fixer-Upper"
         />
       </div>
@@ -55,7 +55,7 @@ const Blog = () => {
       <div className="left-img">
         <img
           className="left-image"
-          src="../Fee-eval-1-G24-Real-Estate-/images/blogpage/left-img3.jpg"
+          src="src/assets/images/Blog/left-img3.jpg"
           alt="Chip and Joanna Gaines' Latest Fixer-Upper"
         />
       </div>
@@ -86,7 +86,7 @@ const Blog = () => {
       <div className="left-img">
         <img
           className="left-image"
-          src="../Fee-eval-1-G24-Real-Estate-/images/blogpage/left-img5.jpeg"
+          src="src/assets/images/Blog/left-img5.jpeg"
           alt="Chip and Joanna Gaines' Latest Fixer-Upper"
         />
       </div>
@@ -114,7 +114,7 @@ const Blog = () => {
       <div className="left-img">
         <img
           className="left-image"
-          src="../Fee-eval-1-G24-Real-Estate-/images/blogpage/left-img2.jpg"
+          src="src/assets/images/Blog/left-img2.jpg"
           alt="Chip and Joanna Gaines' Latest Fixer-Upper"
         />
       </div>
@@ -172,7 +172,7 @@ const Blog = () => {
       </p>
       <div className="post">
         <img
-          src="../Fee-eval-1-G24-Real-Estate-/images/blogpage/home-interior1.jpg"
+          src="src/assets/images/Blog/home-interior1.jpg"
           alt="Post Image"
           className="post-image"
         />
@@ -185,7 +185,7 @@ const Blog = () => {
       </div>
       <div className="post">
         <img
-          src="../Fee-eval-1-G24-Real-Estate-/images/blogpage/home-interior2.jpg"
+          src="src/assets/images/Blog/home-interior2.jpg"
           alt="Post Image"
           className="post-image"
         />
@@ -198,7 +198,7 @@ const Blog = () => {
       </div>
       <div className="post">
         <img
-          src="../Fee-eval-1-G24-Real-Estate-/images/blogpage/home-interior3.jpg"
+          src="src/assets/images/Blog/home-interior3.jpg"
           alt="Post Image"
           className="post-image"
         />

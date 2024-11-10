@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('../Fee-eval-1-G24-Real-Estate-/images/Login/rpg.jpg') no-repeat;
+    background: url('src/assets/images/Login/rpg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
