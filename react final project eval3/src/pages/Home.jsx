@@ -219,6 +219,58 @@ const Home = () => {
                 </div>
             </div>
 
+            {/* agents */}
+
+            <div className="container7">
+                <div className="heading7">
+                    <h2>Meet the agents</h2>
+                </div>
+                <div className="Img_container7">
+                    <div className="agent7">
+                        <img
+                            src="src/assets/images/agents/meet-1.jpg"
+                            alt="Agent 1"
+                            className="agent-img7"
+                        />
+                        <h3 className="designation7">Cameron Williamson</h3>
+                        <p className="email7">
+                            <i className="fa-solid fa-envelope"></i> cameronwilliamson@gmail.com
+                        </p>
+                        <p className="contact7">
+                            <i className="fa-solid fa-phone"></i> +1274658388
+                        </p>
+                    </div>
+                    <div className="agent7">
+                        <img
+                            src="src/assets/images/agents/meet-2.jpg"
+                            alt="Agent 2"
+                            className="agent-img7"
+                        />
+                        <h3 className="designation7">Leslie Alexander</h3>
+                        <p className="email7">
+                            <i className="fa-solid fa-envelope"></i> lesliealexander@gmail.com
+                        </p>
+                        <p className="contact7">
+                            <i className="fa-solid fa-phone"></i> +1234993837
+                        </p>
+                    </div>
+                    <div className="agent7">
+                        <img
+                            src="src/assets/images/agents/meet-3.jpg"
+                            alt="Agent 3"
+                            className="agent-img7"
+                        />
+                        <h3 className="designation7">Darlene Robertson</h3>
+                        <p className="email7">
+                            <i className="fa-solid fa-envelope"></i> darleneroberston@gmail.com
+                        </p>
+                        <p className="contact7">
+                            <i className="fa-solid fa-phone"></i> +1237464646
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
 

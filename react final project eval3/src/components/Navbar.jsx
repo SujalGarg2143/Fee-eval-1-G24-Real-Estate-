@@ -20,7 +20,7 @@ const Navbar = () => {
                     <ul className="dropdown">
                         <li><Link to="/">Blogs</Link></li>
                         <li><Link to="/">Interior Design</Link></li>
-                        <li><Link to="/">EMI Calculator</Link></li>
+                        <li><a href='/emi.html' target='blank'>EMI Calculator</a></li>
                     </ul>
                 </li>
                 <li><Link to="/">About Us</Link></li>

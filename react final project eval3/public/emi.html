@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="emi.css">
+    <title>EMI Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>EMI Calculator</h1>
+        <p>Plan your finances with ease. Calculate your monthly payments in seconds!</p>
+    </header>
+    <main>
+        <h2>Calculate Your EMI</h2>
+        <p>Enter your loan details below to compute your monthly installment.</p>
+        <label for="loanAmount">Loan Amount (₹):</label>
+        <input type="number" id="loanAmount" placeholder="e.g., 500000">
+
+        <label for="interestRate">Annual Interest Rate (%):</label>
+        <input type="number" id="interestRate" placeholder="e.g., 8.5">
+
+        <label for="loanTenure">Loan Tenure (Months):</label>
+        <input type="number" id="loanTenure" placeholder="e.g., 60">
+
+        <button id="calculateEMI">Calculate EMI</button>
+
+        <div class="result" id="result">Your EMI will be displayed here.</div>
+    </main>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-section">
+                <img src="src/assets/images/footer/footer-icon-1.png" alt="Need House"
+                    class="footer-img">
+                <div class="footer-content">
+                    <h3>Need House</h3>
+                    <p>Find your dream home with us. Browse our listings and get in touch with an agent today.</p>
+                    <a href="https://tally.so/r/wk5VKd" target="_blank" class="contact-button">Contact Us</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <img src="src/assets/images/footer/footer-icon-2.png" alt="Sell"
+                    class="footer-img">
+                <div class="footer-content">
+                    <h3>Sell</h3>
+                    <p>Ready to sell your property? List it with us and get the best market insights and valuation.</p>
+                    <a href="https://tally.so/r/wk5VKd" class="contact-button">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-contact">
+                <p>Contact Us: 1234567890</p>
+                <p>Email: opulentspaces@gmail.com</p>
+                <p>Address: Chitkara University , India</p>
+            </div>
+            <div class="footer-social">
+                <a href="#">Facebook</a> |
+                <a href="#">Twitter</a> |
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+    <script src="emi.js"></script>
+</body>
+</html>
