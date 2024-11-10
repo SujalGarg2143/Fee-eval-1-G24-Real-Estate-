@@ -1,9 +1,9 @@
-body {
+/* body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-}
-header {
+} */
+/* header {
 padding: 20px;
 display: flex;
 justify-content: flex-end;
@@ -79,7 +79,7 @@ font-family: sans-serif;
 font-size: 13px;
 display: inline-block;
 line-height: 0;
-}
+} */
 .under {
     width: 100%;
     height: 400px;
@@ -175,7 +175,7 @@ line-height: 0;
 }
 
 
-.container {
+.conatct-container {
     max-width: 880px;
     margin: 0 auto;
     padding: 30px;
@@ -308,7 +308,7 @@ button:hover {
   }
 }
 
-.container {
+.card-container {
   animation: slide-in 0.5s ease-out;
 }
 

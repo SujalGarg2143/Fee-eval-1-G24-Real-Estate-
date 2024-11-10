@@ -1,8 +1,8 @@
-body {
+/* body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
-}
+} */
 
 
 .main-img {
@@ -11,7 +11,7 @@ body {
   margin: auto;
   background-attachment: fixed;
   margin-top: 40px;
-  background-image: url('../Fee-eval-1-G24-Real-Estate-/images/blogpage/img2.jpg');
+  background-image: url('src/assets/images/Blog/img2.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -28,7 +28,7 @@ body {
   font-size: 100px;
 }
 
-.left-column {
+.blog-left-column {
   width: 955px;
   display: inline-block;
   margin-left: 50px;
@@ -40,7 +40,6 @@ body {
 .right-column {
   width: 400px;
   display: inline-block;
-
   height: 1200px;
   margin-top: 50px;
   margin-left: 50px;

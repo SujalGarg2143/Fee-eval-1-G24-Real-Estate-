@@ -1,6 +1,5 @@
-// AboutUs.jsx
 import React from 'react';
-import './AboutUs.css'; // Ensure the path to your CSS file is correct
+import './About_Us.css'; 
 
 function AboutUs() {
   return (
@@ -21,7 +20,7 @@ function AboutUs() {
         <div className="left">
           <div className="image-container">
             <img
-              src="D:\FEE-2\FEE - 2\src\components\img_52.jpg"
+              src="../Fee-eval-1-G24-Real-Estate-/images/About_Us/img_52.jpg"
               alt="Image"
             />
           </div>
@@ -98,7 +97,7 @@ function AboutUs() {
         <div className="flex-container">
           <div className="flex-item">
             <img
-              src="D:\FEE-2\FEE - 2\src\components\icon_01.76e69ba4.svg"
+              src="../Fee-eval-1-G24-Real-Estate-/images/About_Us/icon_01.76e69ba4.svg"
               alt="Icon 1"
               className="icon"
             />
@@ -113,7 +112,7 @@ function AboutUs() {
           </div>
           <div className="flex-item">
             <img
-              src="D:\FEE-2\FEE - 2\src\components\icon_02.e0efe402.svg"
+              src="../Fee-eval-1-G24-Real-Estate-/images/About_Us/icon_02.e0efe402.svg"
               alt="Icon 2"
               className="icon"
             />
@@ -128,7 +127,7 @@ function AboutUs() {
           </div>
           <div className="flex-item">
             <img
-              src="D:\FEE-2\FEE - 2\src\components\icon_03.a4b83c0a.svg"
+              src="../Fee-eval-1-G24-Real-Estate-/images/About_Us/icon_03.a4b83c0a.svg"
               alt="Icon 3"
               className="icon"
             />
@@ -157,7 +156,7 @@ function AboutUs() {
           <div className="logo">
             <img
               className="logoo"
-              src="D:\FEE-2\FEE - 2\src\components\icon_41.c775f773.svg"
+              src="../Fee-eval-1-G24-Real-Estate-/images/About_Us/icon_41.c775f773.svg"
               alt=""
             />
           </div>
@@ -169,7 +168,7 @@ function AboutUs() {
           <div className="logo">
             <img
               className="logoo"
-              src="D:\FEE-2\FEE - 2\src\components\icon_42.137e7f22.svg"
+              src="../Fee-eval-1-G24-Real-Estate-/images/About_Us/icon_42.137e7f22.svg"
               alt=""
             />
           </div>
@@ -181,7 +180,7 @@ function AboutUs() {
           <div className="logo">
             <img
               className="logoo"
-              src="D:\FEE-2\FEE - 2\src\components\icon_40.58924ca0.svg"
+              src="../Fee-eval-1-G24-Real-Estate-/images/About_Us/icon_40.58924ca0.svg"
               alt=""
             />
           </div>

@@ -18,16 +18,16 @@ const Navbar = () => {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/">Services</Link>
                     <ul className="dropdown">
-                        <li><Link to="/">Blogs</Link></li>
-                        <li><Link to="/">Interior Design</Link></li>
+                        <li><Link to="/Blog">Blogs</Link></li>
+                        {/* <li><Link to="/DesignerFurniture">Interior Design</Link></li> */}
                         <li><a href='/emi.html' target='blank'>EMI Calculator</a></li>
                     </ul>
                 </li>
                 <li><Link to="/">About Us</Link></li>
-                <li><Link to="/">Contact US</Link></li>
+                <li><Link to="/ContactUs">Contact US</Link></li>
             </ul>
             <div className="login">
-                <Link to="/">Login</Link>
+                <Link to="/Login">Login</Link>
             </div>
         </nav>
     );

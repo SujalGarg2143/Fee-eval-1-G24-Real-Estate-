@@ -119,7 +119,7 @@ const ContactUs = () => {
   <br />
   <br />
   <br />
-  <div className="container">
+  <div className="contact-container">
     <h1>Let Us Hear From You Directly!</h1>
     <p className="op">
       It is a long established fact that a reader will be distracted by the
