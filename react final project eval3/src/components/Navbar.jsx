@@ -23,7 +23,7 @@ const Navbar = () => {
                         <li><a href='/emi.html' target='blank'>EMI Calculator</a></li>
                     </ul>
                 </li>
-                <li><Link to="/">About Us</Link></li>
+                <li><Link to="/AboutUs">About Us</Link></li>
                 <li><Link to="/ContactUs">Contact US</Link></li>
             </ul>
             <div className="login">
