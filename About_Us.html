@@ -50,18 +50,42 @@
       
       <div class="container-b">
         <div class="item">
-          <h2><span id="projectHandover">720k+</span></h2>
+          <h2><span id="projectHandover">500k+</span></h2>
           <p>Project handover</p>
         </div>
         <div class="item">
-          <h2><span id="lowInterest">1.3%</span></h2>
+          <h2><span id="lowInterest">1%</span></h2>
           <p>Low interest</p>
         </div>
         <div class="item">
-          <h2><span id="happyCustomers">1.9mil+</span></h2>
+          <h2><span id="happyCustomers">1mil+</span></h2>
           <p>Happy customers</p>
         </div>
-      </div><br><br>
+        <script>
+          function getRandomInt(min, max) {
+              return Math.floor(Math.random() * (max - min + 1)) + min;
+          }
+  
+          function updateNumbers() {
+              // Update Project Handover (limit to 500k to 1M)
+              const projectHandover = document.getElementById('projectHandover');
+              const newProjectHandover = getRandomInt(500, 1000) + 'k+';
+              projectHandover.textContent = newProjectHandover;
+  
+              // Update Low Interest (limit to 1.0% to 1.8%)
+              const lowInterest = document.getElementById('lowInterest');
+              const newLowInterest = (Math.random() * (1.8 - 1.0) + 1.0).toFixed(1) + '%';
+              lowInterest.textContent = newLowInterest;
+  
+              // Update Happy Customers (limit to 1.5M to 2.5M)
+              const happyCustomers = document.getElementById('happyCustomers');
+              const newHappyCustomers = getRandomInt(1, 9) + 'mil+';
+              happyCustomers.textContent = newHappyCustomers;
+          }
+  
+          setInterval(updateNumbers, 1000);
+      </script>
+      </div><br><br
 
 
 
